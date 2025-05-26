@@ -1,51 +1,50 @@
-# 📱 Projeto Expo App 
+# Welcome to your Expo app 👋
 
-## 🔍 O que o projeto faz
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-Este projeto é um aplicativo mobile desenvolvido com **React Native usando Expo**, focado em navegação entre múltiplas telas com componentes reutilizáveis. O app permite a transição entre diferentes seções, cada uma com funcionalidades específicas. Ele também integra o Firebase, sugerindo que funcionalidades como autenticação, banco de dados ou notificações podem estar presentes ou em desenvolvimento.
+## Get started
 
----
+1. Install dependencies
 
-## ⚙️ Como o projeto é feito (detalhes técnicos)
+   ```bash
+   npm install
+   ```
 
-O aplicativo utiliza as seguintes tecnologias e boas práticas:
+2. Start the app
 
-- **React Native com Expo**: Facilita o desenvolvimento, teste e deploy de aplicativos para Android e iOS.
-- **JavaScript e JSX**: A base do código está em JS, com componentes escritos em JSX, incluindo arquivos como `telaA.jsx`, `TopDropDownMenu.jsx` e `_layout.js`.
-- **Firebase**: O arquivo `firebaseConfig.js` conecta ao Firebase, para autenticação e armazenamento de dados.
-- **Componentização**: A arquitetura usa componentes reutilizáveis, como menus suspensos (`TopDropDownMenu.jsx`).
-- **Sistema de Rotas**: Usa a estrutura de roteamento do Expo Router (`_layout.js`), permitindo navegação entre telas com rotas organizadas por pastas.
+   ```bash
+    npx expo start
+   ```
 
----
+In the output, you'll find options to open the app in a
 
-## 🧪 Como rodar o projeto localmente
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-Siga os passos abaixo para executar o app no seu computador:
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-### 1. Pré-requisitos
+## Get a fresh project
 
-- [Node.js](https://nodejs.org) (versão 16 ou superior recomendada)
-- [Expo CLI](https://docs.expo.dev/workflow/expo-cli/) instalado globalmente:
-  ```bash
-  npm install -g expo-cli
-  ```
-
-### 2. Clonar o projeto
-
-Se ainda não estiver em sua máquina:
-```bash
-git clone <link-do-repositório>
-cd nome-do-projeto
-```
-
-### 3. Instalar as dependências
+When you're ready, run:
 
 ```bash
-npm install
+npm run reset-project
 ```
 
-### 4. Rodar o app
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-```bash
-npx expo start
-```
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
