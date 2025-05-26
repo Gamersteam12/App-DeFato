@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1047948482546",
+    "project_id": "de-fato",
+    "storage_bucket": "de-fato.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047948482546:android:1df4e067ed732ea218fd6b",
+        "android_client_info": {
+          "package_name": "com.defato"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047948482546-qb8jbvf3n9ikg5iph79vtt3d044g2bev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBalLKuq6SONTFP31aD-NwtJjXxNPUBxno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047948482546-qb8jbvf3n9ikg5iph79vtt3d044g2bev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
