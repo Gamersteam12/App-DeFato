@@ -1,3 +1,0 @@
-Tive sérios problemas com a parte das telas no MVC —
-o que está aí é basicamente uma gambiarra só pra conseguir rodar. 
-Não deve causar muita dor de cabeça mais pra frente, mas se você conseguir arrumar, melhor ainda.
